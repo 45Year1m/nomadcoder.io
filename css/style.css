@@ -1,0 +1,153 @@
+.hidden {
+    display: none;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+}
+
+#clock:hover {
+    color:beige;
+}
+
+#greeting:hover {
+    color:beige;
+}
+
+#quote:hover {
+    color:beige;
+}
+
+#weather:hover {
+  color:beige;
+}
+
+
+#greeting {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font: oblique bold 100px "Times New Roman", Times, serif;;
+    color: white;
+}
+
+
+#quote {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: oblique bold 20px "Times New Roman", Times, serif;;
+    color: white;
+    vertical-align: top;
+}
+
+#login-form p {
+    color:rgb(240, 241, 247);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font: oblique bold 100px "Times New Roman", Times, serif;;
+  
+}
+
+#login-form {
+    top: 80%;
+    /* 중앙에 배치 */
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    outline: none;
+    position: fixed;
+    width: 100%;
+}
+
+#login-form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    color: white;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#login-form button {
+    border: none;
+    outline: none;
+    position: relative;
+    top: 15px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#clock {
+    position: absolute;
+    top: 00%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#todo-list li {
+    color: white;
+    font-size: 15px;
+    word-break: break-all;
+}
+
+#todo-list button {
+    background: none;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(241, 13, 13);
+
+}
+
+#todo-form {
+    color:white;
+    
+}
+
+
+#todo-form input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid beige;
+    color:white;
+    font-size: 15px;
+}
+
+#weather {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  color:white;
+  font-size: 15px;
+  border-bottom: 1px solid beige;
+}
